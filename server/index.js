@@ -55,7 +55,9 @@ const huespedController = new HuespedController(huespedService, reservaService);
 const alojamientoController = new AlojamientoController(alojamientoService);
 
 const app = express();
-app.use(cors({ origin: "*" }))
+app.use(cors({
+    origin: ["https://birbnb.vercel.app", "http://localhost:5173"]
+}))
 const port = process.env.PORT || 3000;
 const server = new Server(app, port);
 
