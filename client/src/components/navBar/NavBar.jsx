@@ -186,12 +186,7 @@ const NavBar = () => {
                             <span>Mis reservas</span>
                           </button>
 
-                          <button
-                            className="w-full text-left px-4 py-3 text-white hover:bg-gray-900 transition-colors flex items-center space-x-3"
-                          >
-                            <Settings className="h-4 w-4" />
-                            <span>Configuración</span>
-                          </button>
+
                           <div className="border-t border-gray-800 my-2"></div>
                         <button
                                 onClick={() => {
