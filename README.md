@@ -27,16 +27,16 @@ TP de **Desarrollo de Software (UTN FRBA, 2025)**.
 El proyecto incluye una suite de tests automatizados en tres niveles:
 unitarios, de integración y end-to-end.
 
-​```bash
+```bash
 npm test          # unitarios e integración
 npx cypress run   # E2E
-​```
+```
 
 ## 🚀 Levantarlo localmente
 
-​```bash
+```bash
 git clone https://github.com/FrancoVinaccia/tp-birbnb-web.git
 cd tp-birbnb-web
 npm install
 npm start
-​```
+```
